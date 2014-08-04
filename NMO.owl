@@ -1,0 +1,1685 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE Ontology [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://purl.jp/bio/mol/NMO.owl"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     ontologyIRI="http://purl.jp/bio/mol/NMO.owl">
+    <Prefix name="" IRI="http://purl.jp/bio/mol/NMO.owl#"/>
+    <Prefix name="NMO" IRI="http://www.owl-ontologies.com/NMO.owl#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="protege" IRI="http://protege.stanford.edu/plugins/owl/protege#"/>
+    <Import>http://protege.stanford.edu/plugins/owl/protege</Import>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">NMO is natural Molecular Ontology for natural Product.</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="#1-benzopyrans"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#2,2&apos;-cyclolignan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#2,7&apos;-cyclolignan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#2-benzopyrans"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#2-pyrones"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#4-pyrones"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#7,7&apos;-epoxylignan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#7,8&apos;-epoxylignan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#7,9&apos;-epoxylignan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#7,9&apos;:7,9&apos;-diepoxylignan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#aflatoxins_relatedSubstances"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#aldaricAcids"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#aldonicAcids"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#aliphaticnaturalProoducts"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#aminoacids_peptides_proteins"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#angucyclines"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#annonaceaeAcetogenins"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ansamycins_relatedPolyketides"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#anthocyanidins"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#anthracenes_phenanthrenes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#anthracyclinones"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#auroneFlavonoids"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#avenaciolide_glauconicAcid_groups"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#b-lactones"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#benzodifurans"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#benzofranoids"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#benzoisochromanquinones"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#benzopyranoids"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#biflavonoids_polyflavonoids"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#binaphthyls_perylenes_duclauxinGroup"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#branchedChainSugars"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#butanolides"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#carbohydrateAcids"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#chalcones_dihydrochalcones"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#coumarinolignan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#coumestanFlavonoids"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cyclitols"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#depsides_depsidones_otherLichenSubstances"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#diarylalkyls_terphenyls_pulvinoneGroup"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#dibenzocycloctadieneLignans"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#dibenzofurans_griseofulvins_dibenzopyrans_xanthones"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#dibenzylbutyrolactoneLignans"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#dihydroflavonols"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#diphenylEthers_biphenyls_dibenzyls_stilbenes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#diphenylmethanes_acylphloroglucinols_benzophenone"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#disaccharides"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#diterpenoids"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#extendedQuinones"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#flavanones"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#flavans_flavanols_leucoanthocyanidins"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#flavones_flavonols"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#flavonoids"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#flavonolignan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#fundamentalAldoses_ketoses"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#furanoidLignans"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#furans"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#glycosaminoglycans"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#hemiterpenoids"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#hybridLignans"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#indenes_indan-1-spirocyclohexanes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#isobenzofurans"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#isoflavans"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#isoflavonoids"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ketoaldonicAcids"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#lignans"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#lignins"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#linearTetracyclines"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#macrolides_lactonePolyketides"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#meroterpenoids"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#miscellaneousPolycyclicAromatics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#miscellaneousTerpenoids"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#modifiedAldoses_ketoses"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#monoterpenoids"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#naphthalenes_naphthoquinones"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#neoflavonoids"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#neolignans"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#oligosaccharides_polysaccharides"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pentanolides"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#phenalenes_fluorenes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#phospholipids_sphingolipids"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#plantGlycosides"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#polycyclicAromaticNaturalProducts"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#proanthocyanidins"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#prostacyclins"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#prostaglandins_prostacyclins_thromboxanes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pterocarpans"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pyrans"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#rotenoidFlavonoids"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#semiochemicals"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sesquilignans_dilignans"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sesquiterpenoids"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sesterterpenoids"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#simpleAromaticNaturalProducts"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#simpleAryltetralinLignans"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#simpleBenzofurans"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#simpleDibenzylbutaneLignans"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#spiroketals"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#stilbenolignan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#tannins"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#tetraterpenoids"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#thromboxanes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#triterpenoids"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#uronicAcids"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#xantholignan"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="NMO:Ascididemins"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="NMO:AzepineAlkaloid"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="NMO:Bacteriochlorophyll"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="NMO:BenzodiazepineAlkaloid"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="NMO:BenzoxazoleAlkaloid"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="NMO:BetaAminoAcid"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="NMO:BetaCarbolineAlkaloid"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="NMO:Bilin"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="NMO:BindingProtein"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="NMO:C_20Steroid"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="NMO:CarbazoleAlkaloid"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="NMO:Chaetocin-likeAlkaloid"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="NMO:Chlorophyll"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="NMO:CholestaneSteroid"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="NMO:ChromoneAlkaloid"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="NMO:CinnamicAcidAmide"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="NMO:CyclicOligoPeptide"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="NMO:Cycloheptadiimidazole"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="NMO:CyclopropacholestaneSteroid"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="NMO:Cylindricine"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="NMO:Cystodytins"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="NMO:CytochalasanAlkaloid"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="NMO:Depsipeptide"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="NMO:Diketopiperazine"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="NMO:DiterpeneAlkaloid"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="NMO:Ecdysteroid"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="NMO:Enzyme"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="NMO:ErgostaneSteroid"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="NMO:ErgotAlkaloid"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="NMO:FactorRegulatorHormone"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="NMO:Glycopeptide"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="NMO:GorgostaneSteroid"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="NMO:Hapalindole"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="NMO:ImidazoleAlkaloid"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="NMO:IndoleAlkaloid"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="NMO:IndolizidineAlkaloid"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="NMO:IonChannel"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="NMO:Isonitrile"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="NMO:Kuanoniamines"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="NMO:LipidBindingProtein"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="NMO:ManzamineAlkaloid"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="NMO:MonoclonalAntibody"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="NMO:Morpholine"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="NMO:Naphthyridinomycin"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="NMO:NaturalMolecule"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="NMO:Nitrile"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="NMO:NonproteinAlphaAminoAcid"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="NMO:NuclearReceptor"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="NMO:OxazoleAlkaloid"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="NMO:PeptideAlkaloid"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="NMO:PhenazineAlkaloid"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="NMO:PhenethylamineAlkaloid"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="NMO:PhenoxazineAlkaloid"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="NMO:Pheromone"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="NMO:Physostigmine-likeAlkaloid"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="NMO:PiperidineAlkaloid"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="NMO:PolyamineAlkaloid"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="NMO:Porphyrin"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="NMO:Porphyrinogen"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="NMO:PregnaneSteroid"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="NMO:Prostaglandins"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="NMO:ProteinAlphaAminoAcid"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="NMO:Pteridine"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="NMO:Ptilocaulin"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="NMO:Purine"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="NMO:PyrazineAlkaloid"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="NMO:PyrazoleAlkaloid"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="NMO:PyridineAlkaloid"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="NMO:Pyrimidine"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="NMO:PyrroleAlkaloid"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="NMO:PyrrolidineAlkaloid"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="NMO:Pyrroloazepine"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="NMO:QuinolineAlkaloid"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="NMO:QuinolizidineAlkaloid"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="NMO:QuinoxalineAlkaloid"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="NMO:RNA"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="NMO:Receptor"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="NMO:Saframycin"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="NMO:Saxitoxin"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="NMO:SesquiterpeneAlkaloid"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="NMO:SesterterpeneAlkaloid"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="NMO:SignallingProtein"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="NMO:SimpleAcyclicAmineAlkaloid"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="NMO:SimpleBiindole"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="NMO:SimpleGuanidine"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="NMO:SimpleIsoquinolineAlkaloid"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="NMO:SimpleTryptamine"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="NMO:SpirobenzoxazolineAlkaloid"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="NMO:SteroidalAlkaloid"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="NMO:Sterol"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="NMO:StigmastaneSteroid"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="NMO:StructuralProtein"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="NMO:Styelsamines"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="NMO:TetramicAcid"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="NMO:Tetrodotoxin"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="NMO:ThiazoleAlkaloid"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="NMO:TransportProtein"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="NMO:TriazaacenaphthyleneAlkaloid"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="NMO:Varamines"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="NMO:Xestospongin"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="NMO:alditols"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="NMO:alkaloids"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="NMO:amino_acid"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="NMO:biphenyl"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="NMO:carbohydrates"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="NMO:dibenzyl"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="NMO:diphenylEther"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="NMO:fattyAcids"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="NMO:glycerides"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="NMO:linearPolyketides"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="NMO:lipids"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="NMO:marineHalogenatedAcetogenins"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="NMO:oxygenHeterocycles"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="NMO:oxylipins"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="NMO:peptide"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="NMO:phlorotannin"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="NMO:phospholipids"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="NMO:polyenes"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="NMO:polyetherAntibiotic"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="NMO:polyketides"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="NMO:polypeptide"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="NMO:polypyrroles"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="NMO:protein"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="NMO:semiochemical"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="NMO:simpleBenzeneDerivative"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="NMO:sphingolipids"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="NMO:steroids"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="NMO:terpenoids"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="NMO:composed_of"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="NMO:is_a"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="NMO:hasDefinition"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="NMO:id"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#1-benzopyrans"/>
+        <Class IRI="#benzopyranoids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#2,2&apos;-cyclolignan"/>
+        <Class IRI="#dibenzocycloctadieneLignans"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#2,7&apos;-cyclolignan"/>
+        <Class IRI="#simpleAryltetralinLignans"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#2-benzopyrans"/>
+        <Class IRI="#benzopyranoids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#2-pyrones"/>
+        <Class abbreviatedIRI="NMO:oxygenHeterocycles"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#4-pyrones"/>
+        <Class abbreviatedIRI="NMO:oxygenHeterocycles"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#7,7&apos;-epoxylignan"/>
+        <Class IRI="#furanoidLignans"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#7,8&apos;-epoxylignan"/>
+        <Class IRI="#furanoidLignans"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#7,9&apos;-epoxylignan"/>
+        <Class IRI="#furanoidLignans"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#7,9&apos;:7,9&apos;-diepoxylignan"/>
+        <Class IRI="#furanoidLignans"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#aflatoxins_relatedSubstances"/>
+        <Class abbreviatedIRI="NMO:polyketides"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#aldaricAcids"/>
+        <Class IRI="#carbohydrateAcids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#aldonicAcids"/>
+        <Class IRI="#carbohydrateAcids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#aliphaticnaturalProoducts"/>
+        <Class abbreviatedIRI="NMO:NaturalMolecule"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#aminoacids_peptides_proteins"/>
+        <Class abbreviatedIRI="NMO:NaturalMolecule"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#angucyclines"/>
+        <Class abbreviatedIRI="NMO:polyketides"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#annonaceaeAcetogenins"/>
+        <Class abbreviatedIRI="NMO:polyketides"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ansamycins_relatedPolyketides"/>
+        <Class abbreviatedIRI="NMO:polyketides"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#anthocyanidins"/>
+        <Class IRI="#flavonoids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#anthracenes_phenanthrenes"/>
+        <Class IRI="#polycyclicAromaticNaturalProducts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#anthracyclinones"/>
+        <Class IRI="#polycyclicAromaticNaturalProducts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#auroneFlavonoids"/>
+        <Class IRI="#flavonoids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#avenaciolide_glauconicAcid_groups"/>
+        <Class abbreviatedIRI="NMO:oxygenHeterocycles"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#b-lactones"/>
+        <Class abbreviatedIRI="NMO:oxygenHeterocycles"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#benzodifurans"/>
+        <Class IRI="#benzofranoids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#benzofranoids"/>
+        <Class abbreviatedIRI="NMO:NaturalMolecule"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#benzoisochromanquinones"/>
+        <Class IRI="#polycyclicAromaticNaturalProducts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#benzopyranoids"/>
+        <Class abbreviatedIRI="NMO:NaturalMolecule"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#biflavonoids_polyflavonoids"/>
+        <Class IRI="#flavonoids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#binaphthyls_perylenes_duclauxinGroup"/>
+        <Class IRI="#polycyclicAromaticNaturalProducts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#branchedChainSugars"/>
+        <Class abbreviatedIRI="NMO:carbohydrates"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#butanolides"/>
+        <Class abbreviatedIRI="NMO:oxygenHeterocycles"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#carbohydrateAcids"/>
+        <Class abbreviatedIRI="NMO:carbohydrates"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#chalcones_dihydrochalcones"/>
+        <Class IRI="#flavonoids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#coumarinolignan"/>
+        <Class IRI="#hybridLignans"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#coumestanFlavonoids"/>
+        <Class IRI="#flavonoids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cyclitols"/>
+        <Class abbreviatedIRI="NMO:carbohydrates"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#depsides_depsidones_otherLichenSubstances"/>
+        <Class IRI="#simpleAromaticNaturalProducts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#diarylalkyls_terphenyls_pulvinoneGroup"/>
+        <Class IRI="#simpleAromaticNaturalProducts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#dibenzocycloctadieneLignans"/>
+        <Class IRI="#lignans"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#dibenzofurans_griseofulvins_dibenzopyrans_xanthones"/>
+        <Class IRI="#simpleAromaticNaturalProducts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#dibenzylbutyrolactoneLignans"/>
+        <Class IRI="#lignans"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#dihydroflavonols"/>
+        <Class IRI="#flavonoids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#diphenylEthers_biphenyls_dibenzyls_stilbenes"/>
+        <Class IRI="#simpleAromaticNaturalProducts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#diphenylmethanes_acylphloroglucinols_benzophenone"/>
+        <Class IRI="#simpleAromaticNaturalProducts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#disaccharides"/>
+        <Class abbreviatedIRI="NMO:carbohydrates"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#diterpenoids"/>
+        <Class abbreviatedIRI="NMO:terpenoids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#extendedQuinones"/>
+        <Class IRI="#polycyclicAromaticNaturalProducts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#flavanones"/>
+        <Class IRI="#flavonoids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#flavans_flavanols_leucoanthocyanidins"/>
+        <Class IRI="#flavonoids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#flavones_flavonols"/>
+        <Class IRI="#flavonoids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#flavonoids"/>
+        <Class abbreviatedIRI="NMO:NaturalMolecule"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#flavonolignan"/>
+        <Class IRI="#hybridLignans"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#fundamentalAldoses_ketoses"/>
+        <Class abbreviatedIRI="NMO:carbohydrates"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#furanoidLignans"/>
+        <Class IRI="#lignans"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#furans"/>
+        <Class abbreviatedIRI="NMO:oxygenHeterocycles"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#glycosaminoglycans"/>
+        <Class abbreviatedIRI="NMO:carbohydrates"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#hemiterpenoids"/>
+        <Class abbreviatedIRI="NMO:terpenoids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#hybridLignans"/>
+        <Class IRI="#lignans"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#indenes_indan-1-spirocyclohexanes"/>
+        <Class IRI="#polycyclicAromaticNaturalProducts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#isobenzofurans"/>
+        <Class IRI="#benzofranoids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#isoflavans"/>
+        <Class IRI="#flavonoids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#isoflavonoids"/>
+        <Class IRI="#flavonoids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ketoaldonicAcids"/>
+        <Class IRI="#carbohydrateAcids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#lignans"/>
+        <Class abbreviatedIRI="NMO:NaturalMolecule"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#lignins"/>
+        <Class abbreviatedIRI="NMO:NaturalMolecule"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#linearTetracyclines"/>
+        <Class abbreviatedIRI="NMO:polyketides"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#macrolides_lactonePolyketides"/>
+        <Class abbreviatedIRI="NMO:polyketides"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#meroterpenoids"/>
+        <Class abbreviatedIRI="NMO:terpenoids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#miscellaneousPolycyclicAromatics"/>
+        <Class IRI="#polycyclicAromaticNaturalProducts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#miscellaneousTerpenoids"/>
+        <Class abbreviatedIRI="NMO:terpenoids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#modifiedAldoses_ketoses"/>
+        <Class abbreviatedIRI="NMO:carbohydrates"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#monoterpenoids"/>
+        <Class abbreviatedIRI="NMO:terpenoids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#naphthalenes_naphthoquinones"/>
+        <Class IRI="#polycyclicAromaticNaturalProducts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#neoflavonoids"/>
+        <Class IRI="#flavonoids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#neolignans"/>
+        <Class IRI="#lignans"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#oligosaccharides_polysaccharides"/>
+        <Class abbreviatedIRI="NMO:carbohydrates"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pentanolides"/>
+        <Class abbreviatedIRI="NMO:oxygenHeterocycles"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#phenalenes_fluorenes"/>
+        <Class IRI="#polycyclicAromaticNaturalProducts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#phospholipids_sphingolipids"/>
+        <Class abbreviatedIRI="NMO:lipids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#plantGlycosides"/>
+        <Class abbreviatedIRI="NMO:carbohydrates"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#polycyclicAromaticNaturalProducts"/>
+        <Class abbreviatedIRI="NMO:NaturalMolecule"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#proanthocyanidins"/>
+        <Class IRI="#flavonoids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#prostacyclins"/>
+        <Class IRI="#prostaglandins_prostacyclins_thromboxanes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#prostaglandins_prostacyclins_thromboxanes"/>
+        <Class abbreviatedIRI="NMO:lipids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pterocarpans"/>
+        <Class IRI="#flavonoids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pyrans"/>
+        <Class abbreviatedIRI="NMO:oxygenHeterocycles"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#rotenoidFlavonoids"/>
+        <Class IRI="#flavonoids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#semiochemicals"/>
+        <Class IRI="#aliphaticnaturalProoducts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sesquilignans_dilignans"/>
+        <Class IRI="#lignans"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sesquiterpenoids"/>
+        <Class abbreviatedIRI="NMO:terpenoids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sesterterpenoids"/>
+        <Class abbreviatedIRI="NMO:terpenoids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#simpleAromaticNaturalProducts"/>
+        <Class abbreviatedIRI="NMO:NaturalMolecule"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#simpleAryltetralinLignans"/>
+        <Class IRI="#lignans"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#simpleBenzofurans"/>
+        <Class IRI="#benzofranoids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#simpleDibenzylbutaneLignans"/>
+        <Class IRI="#lignans"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#spiroketals"/>
+        <Class abbreviatedIRI="NMO:oxygenHeterocycles"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#stilbenolignan"/>
+        <Class IRI="#hybridLignans"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#tannins"/>
+        <Class abbreviatedIRI="NMO:NaturalMolecule"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#tetraterpenoids"/>
+        <Class abbreviatedIRI="NMO:terpenoids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#thromboxanes"/>
+        <Class IRI="#prostaglandins_prostacyclins_thromboxanes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#triterpenoids"/>
+        <Class abbreviatedIRI="NMO:terpenoids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#uronicAcids"/>
+        <Class IRI="#carbohydrateAcids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#xantholignan"/>
+        <Class IRI="#hybridLignans"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="NMO:Ascididemins"/>
+        <Class abbreviatedIRI="NMO:alkaloids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="NMO:AzepineAlkaloid"/>
+        <Class abbreviatedIRI="NMO:alkaloids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="NMO:Bacteriochlorophyll"/>
+        <Class abbreviatedIRI="NMO:polypyrroles"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="NMO:BenzodiazepineAlkaloid"/>
+        <Class abbreviatedIRI="NMO:alkaloids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="NMO:BenzoxazoleAlkaloid"/>
+        <Class abbreviatedIRI="NMO:alkaloids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="NMO:BetaAminoAcid"/>
+        <Class abbreviatedIRI="NMO:amino_acid"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="NMO:BetaCarbolineAlkaloid"/>
+        <Class abbreviatedIRI="NMO:alkaloids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="NMO:Bilin"/>
+        <Class abbreviatedIRI="NMO:polypyrroles"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="NMO:BindingProtein"/>
+        <Class abbreviatedIRI="NMO:protein"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="NMO:C_20Steroid"/>
+        <Class abbreviatedIRI="NMO:steroids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="NMO:CarbazoleAlkaloid"/>
+        <Class abbreviatedIRI="NMO:alkaloids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="NMO:Chaetocin-likeAlkaloid"/>
+        <Class abbreviatedIRI="NMO:alkaloids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="NMO:Chlorophyll"/>
+        <Class abbreviatedIRI="NMO:polypyrroles"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="NMO:CholestaneSteroid"/>
+        <Class abbreviatedIRI="NMO:Sterol"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="NMO:ChromoneAlkaloid"/>
+        <Class abbreviatedIRI="NMO:alkaloids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="NMO:CinnamicAcidAmide"/>
+        <Class abbreviatedIRI="NMO:alkaloids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="NMO:CyclicOligoPeptide"/>
+        <Class abbreviatedIRI="NMO:peptide"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="NMO:Cycloheptadiimidazole"/>
+        <Class abbreviatedIRI="NMO:alkaloids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="NMO:CyclopropacholestaneSteroid"/>
+        <Class abbreviatedIRI="NMO:Sterol"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="NMO:Cylindricine"/>
+        <Class abbreviatedIRI="NMO:alkaloids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="NMO:Cystodytins"/>
+        <Class abbreviatedIRI="NMO:alkaloids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="NMO:CytochalasanAlkaloid"/>
+        <Class abbreviatedIRI="NMO:alkaloids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="NMO:Depsipeptide"/>
+        <Class abbreviatedIRI="NMO:peptide"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="NMO:Diketopiperazine"/>
+        <Class abbreviatedIRI="NMO:peptide"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="NMO:DiterpeneAlkaloid"/>
+        <Class abbreviatedIRI="NMO:alkaloids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="NMO:Ecdysteroid"/>
+        <Class abbreviatedIRI="NMO:Sterol"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="NMO:Enzyme"/>
+        <Class abbreviatedIRI="NMO:protein"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="NMO:ErgostaneSteroid"/>
+        <Class abbreviatedIRI="NMO:Sterol"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="NMO:ErgotAlkaloid"/>
+        <Class abbreviatedIRI="NMO:alkaloids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="NMO:FactorRegulatorHormone"/>
+        <Class abbreviatedIRI="NMO:protein"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="NMO:Glycopeptide"/>
+        <Class abbreviatedIRI="NMO:peptide"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="NMO:GorgostaneSteroid"/>
+        <Class abbreviatedIRI="NMO:Sterol"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="NMO:Hapalindole"/>
+        <Class abbreviatedIRI="NMO:alkaloids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="NMO:ImidazoleAlkaloid"/>
+        <Class abbreviatedIRI="NMO:alkaloids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="NMO:IndoleAlkaloid"/>
+        <Class abbreviatedIRI="NMO:alkaloids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="NMO:IndolizidineAlkaloid"/>
+        <Class abbreviatedIRI="NMO:alkaloids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="NMO:IonChannel"/>
+        <Class abbreviatedIRI="NMO:protein"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="NMO:Isonitrile"/>
+        <Class abbreviatedIRI="NMO:alkaloids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="NMO:Kuanoniamines"/>
+        <Class abbreviatedIRI="NMO:alkaloids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="NMO:LipidBindingProtein"/>
+        <Class abbreviatedIRI="NMO:protein"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="NMO:ManzamineAlkaloid"/>
+        <Class abbreviatedIRI="NMO:alkaloids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="NMO:MonoclonalAntibody"/>
+        <Class abbreviatedIRI="NMO:protein"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="NMO:Morpholine"/>
+        <Class abbreviatedIRI="NMO:alkaloids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="NMO:Naphthyridinomycin"/>
+        <Class abbreviatedIRI="NMO:alkaloids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="NMO:Nitrile"/>
+        <Class abbreviatedIRI="NMO:alkaloids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="NMO:NonproteinAlphaAminoAcid"/>
+        <Class abbreviatedIRI="NMO:amino_acid"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="NMO:NuclearReceptor"/>
+        <Class abbreviatedIRI="NMO:protein"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="NMO:OxazoleAlkaloid"/>
+        <Class abbreviatedIRI="NMO:alkaloids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="NMO:PeptideAlkaloid"/>
+        <Class abbreviatedIRI="NMO:alkaloids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="NMO:PhenazineAlkaloid"/>
+        <Class abbreviatedIRI="NMO:alkaloids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="NMO:PhenethylamineAlkaloid"/>
+        <Class abbreviatedIRI="NMO:alkaloids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="NMO:PhenoxazineAlkaloid"/>
+        <Class abbreviatedIRI="NMO:alkaloids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="NMO:Pheromone"/>
+        <Class abbreviatedIRI="NMO:semiochemical"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="NMO:Physostigmine-likeAlkaloid"/>
+        <Class abbreviatedIRI="NMO:alkaloids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="NMO:PiperidineAlkaloid"/>
+        <Class abbreviatedIRI="NMO:alkaloids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="NMO:PolyamineAlkaloid"/>
+        <Class abbreviatedIRI="NMO:alkaloids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="NMO:Porphyrin"/>
+        <Class abbreviatedIRI="NMO:polypyrroles"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="NMO:Porphyrinogen"/>
+        <Class abbreviatedIRI="NMO:polypyrroles"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="NMO:PregnaneSteroid"/>
+        <Class abbreviatedIRI="NMO:steroids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="NMO:Prostaglandins"/>
+        <Class IRI="#prostaglandins_prostacyclins_thromboxanes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="NMO:ProteinAlphaAminoAcid"/>
+        <Class abbreviatedIRI="NMO:amino_acid"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="NMO:Pteridine"/>
+        <Class abbreviatedIRI="NMO:alkaloids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="NMO:Ptilocaulin"/>
+        <Class abbreviatedIRI="NMO:alkaloids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="NMO:Purine"/>
+        <Class abbreviatedIRI="NMO:alkaloids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="NMO:PyrazineAlkaloid"/>
+        <Class abbreviatedIRI="NMO:alkaloids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="NMO:PyrazoleAlkaloid"/>
+        <Class abbreviatedIRI="NMO:alkaloids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="NMO:PyridineAlkaloid"/>
+        <Class abbreviatedIRI="NMO:alkaloids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="NMO:Pyrimidine"/>
+        <Class abbreviatedIRI="NMO:alkaloids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="NMO:PyrroleAlkaloid"/>
+        <Class abbreviatedIRI="NMO:alkaloids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="NMO:PyrrolidineAlkaloid"/>
+        <Class abbreviatedIRI="NMO:alkaloids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="NMO:Pyrroloazepine"/>
+        <Class abbreviatedIRI="NMO:alkaloids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="NMO:QuinolineAlkaloid"/>
+        <Class abbreviatedIRI="NMO:alkaloids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="NMO:QuinolizidineAlkaloid"/>
+        <Class abbreviatedIRI="NMO:alkaloids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="NMO:QuinoxalineAlkaloid"/>
+        <Class abbreviatedIRI="NMO:alkaloids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="NMO:RNA"/>
+        <Class abbreviatedIRI="NMO:protein"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="NMO:Receptor"/>
+        <Class abbreviatedIRI="NMO:protein"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="NMO:Saframycin"/>
+        <Class abbreviatedIRI="NMO:alkaloids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="NMO:Saxitoxin"/>
+        <Class abbreviatedIRI="NMO:alkaloids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="NMO:SesquiterpeneAlkaloid"/>
+        <Class abbreviatedIRI="NMO:alkaloids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="NMO:SesterterpeneAlkaloid"/>
+        <Class abbreviatedIRI="NMO:alkaloids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="NMO:SignallingProtein"/>
+        <Class abbreviatedIRI="NMO:protein"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="NMO:SimpleAcyclicAmineAlkaloid"/>
+        <Class abbreviatedIRI="NMO:alkaloids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="NMO:SimpleBiindole"/>
+        <Class abbreviatedIRI="NMO:alkaloids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="NMO:SimpleGuanidine"/>
+        <Class abbreviatedIRI="NMO:alkaloids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="NMO:SimpleIsoquinolineAlkaloid"/>
+        <Class abbreviatedIRI="NMO:alkaloids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="NMO:SimpleTryptamine"/>
+        <Class abbreviatedIRI="NMO:alkaloids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="NMO:SpirobenzoxazolineAlkaloid"/>
+        <Class abbreviatedIRI="NMO:alkaloids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="NMO:SteroidalAlkaloid"/>
+        <Class abbreviatedIRI="NMO:alkaloids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="NMO:Sterol"/>
+        <Class abbreviatedIRI="NMO:steroids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="NMO:StigmastaneSteroid"/>
+        <Class abbreviatedIRI="NMO:Sterol"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="NMO:StructuralProtein"/>
+        <Class abbreviatedIRI="NMO:protein"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="NMO:Styelsamines"/>
+        <Class abbreviatedIRI="NMO:alkaloids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="NMO:TetramicAcid"/>
+        <Class abbreviatedIRI="NMO:alkaloids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="NMO:Tetrodotoxin"/>
+        <Class abbreviatedIRI="NMO:alkaloids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="NMO:ThiazoleAlkaloid"/>
+        <Class abbreviatedIRI="NMO:alkaloids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="NMO:TransportProtein"/>
+        <Class abbreviatedIRI="NMO:protein"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="NMO:TriazaacenaphthyleneAlkaloid"/>
+        <Class abbreviatedIRI="NMO:alkaloids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="NMO:Varamines"/>
+        <Class abbreviatedIRI="NMO:alkaloids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="NMO:Xestospongin"/>
+        <Class abbreviatedIRI="NMO:alkaloids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="NMO:alditols"/>
+        <Class abbreviatedIRI="NMO:carbohydrates"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="NMO:alkaloids"/>
+        <Class abbreviatedIRI="NMO:NaturalMolecule"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="NMO:amino_acid"/>
+        <Class IRI="#aminoacids_peptides_proteins"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="NMO:biphenyl"/>
+        <Class abbreviatedIRI="NMO:NaturalMolecule"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="NMO:carbohydrates"/>
+        <Class abbreviatedIRI="NMO:NaturalMolecule"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="NMO:dibenzyl"/>
+        <Class abbreviatedIRI="NMO:NaturalMolecule"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="NMO:diphenylEther"/>
+        <Class abbreviatedIRI="NMO:NaturalMolecule"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="NMO:fattyAcids"/>
+        <Class abbreviatedIRI="NMO:lipids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="NMO:glycerides"/>
+        <Class abbreviatedIRI="NMO:lipids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="NMO:linearPolyketides"/>
+        <Class abbreviatedIRI="NMO:polyketides"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="NMO:lipids"/>
+        <Class IRI="#aliphaticnaturalProoducts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="NMO:marineHalogenatedAcetogenins"/>
+        <Class abbreviatedIRI="NMO:polyketides"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="NMO:oxygenHeterocycles"/>
+        <Class abbreviatedIRI="NMO:NaturalMolecule"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="NMO:oxylipins"/>
+        <Class abbreviatedIRI="NMO:lipids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="NMO:peptide"/>
+        <Class IRI="#aminoacids_peptides_proteins"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="NMO:phlorotannin"/>
+        <Class abbreviatedIRI="NMO:NaturalMolecule"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="NMO:phospholipids"/>
+        <Class IRI="#phospholipids_sphingolipids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="NMO:polyenes"/>
+        <Class abbreviatedIRI="NMO:polyketides"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="NMO:polyetherAntibiotic"/>
+        <Class abbreviatedIRI="NMO:polyketides"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="NMO:polyketides"/>
+        <Class abbreviatedIRI="NMO:NaturalMolecule"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="NMO:polypeptide"/>
+        <Class abbreviatedIRI="NMO:peptide"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="NMO:polypyrroles"/>
+        <Class abbreviatedIRI="NMO:NaturalMolecule"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="NMO:protein"/>
+        <Class IRI="#aminoacids_peptides_proteins"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="NMO:semiochemical"/>
+        <Class abbreviatedIRI="NMO:NaturalMolecule"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="NMO:simpleBenzeneDerivative"/>
+        <Class abbreviatedIRI="NMO:NaturalMolecule"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="NMO:sphingolipids"/>
+        <Class IRI="#phospholipids_sphingolipids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="NMO:steroids"/>
+        <Class abbreviatedIRI="NMO:NaturalMolecule"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="NMO:terpenoids"/>
+        <Class abbreviatedIRI="NMO:NaturalMolecule"/>
+    </SubClassOf>
+    <FunctionalDataProperty>
+        <DataProperty abbreviatedIRI="NMO:id"/>
+    </FunctionalDataProperty>
+    <DataPropertyRange>
+        <DataProperty abbreviatedIRI="NMO:id"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>NMO:composed_of</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;string">composed_of</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>NMO:is_a</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;string">is_a</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+
